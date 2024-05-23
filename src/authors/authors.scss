@@ -1,0 +1,96 @@
+.authors{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.author__container{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    gap: 60px;
+    justify-content: center;
+    text-align: center;
+    padding-left: 57px;
+    padding-right: 96px;
+    margin-top: 10px;
+    padding-bottom: 43px;
+}
+
+.author__title{
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-size: 80px;
+    color: #1A162E;
+    margin-top: 43px;
+}
+
+.author__item{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+}
+
+.author__ranking{
+    font-size: 72px;
+    color: #1A162E;
+    margin-bottom: 60px;
+    font-family: "Abhaya Libre", serif;
+}
+
+.author__name{
+    font-size: 48px;
+    color: #1A162E;
+    margin-top: auto;
+
+    
+}
+
+.author__item{
+    &:first-child {
+        .author__name{
+            margin-top: 101px;
+        }
+
+        .author__ranking{
+            margin-bottom: 57px;
+        }
+
+        .author__image{
+            width: 462px;
+            height: 462px;
+        }
+    }
+    
+    &:nth-child(2) {
+        .author__name {
+            margin-top: 43px;
+        }
+
+        .author__ranking {
+            margin-bottom: 61px;
+        }
+
+        .author__image {
+            width: 577px;
+            height: 577px;
+        }
+    }
+
+    &:last-child {
+        .author__name {
+            margin-top: 123px;
+        }
+
+        .author__ranking {
+            margin-bottom: 55px;
+        }
+
+        .author__image {
+            width: 413px;
+            height: 413px;
+        }
+    }
+}

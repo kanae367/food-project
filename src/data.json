@@ -1,0 +1,83 @@
+[
+    {
+        "name": "Лазанья классическая", 
+        "src": "lazanya.png", 
+        "ingr": "8 ингредиентов", 
+        "time": "50 минут", 
+        "slug": "lazanya",
+        "tags": ["italian", "dinner", "evening", "lasagna"],
+        "ingredients": ["мука", "соус болоньезе", "масло сливочное", "молоко", "фарш"]
+    },
+    {
+        "name": "Фрикасе из кролика", 
+        "src": "krol.png", 
+        "ingr": "15 ингредиентов", 
+        "time": "2 часа", 
+        "slug": "rabbit",
+        "tags": ["french", "dinner", "evening"],
+        "ingredients": ["мука", "соус болоньезе", "масло сливочное", "молоко", "фарш"]
+    },
+    {
+        "name": "Свиные уши по-китайски", 
+        "src": "svin.png", 
+        "ingr": "21 ингредиент", 
+        "time": "30 минут", 
+        "slug": "chinese-pork",
+        "tags": ["chinese", "snack"],
+        "ingredients": ["мука", "соус болоньезе", "масло сливочное", "молоко", "фарш"]
+    },
+    {
+        "name": "Пирожные из тыквы", 
+        "src": "pumpkin-cake.png", 
+        "ingr": "14 ингредиентов", 
+        "time": "1 час", 
+        "slug": "pumpking-cake",
+        "tags": ["russian", "breakfast", "snack"],
+        "ingredients": ["мука", "соус болоньезе", "масло сливочное", "молоко", "фарш"]
+    },
+    {
+        "name": "Клубничный торт", 
+        "src": "tort.png", 
+        "ingr": "6 ингредиентов", 
+        "time": "1 час", 
+        "slug": "berry-cake",
+        "tags": ["russian", "breakfast"],
+        "ingredients": ["мука", "соус болоньезе", "масло сливочное", "молоко", "фарш"]
+    },
+    {
+        "name": "Американские панкейки", 
+        "src": "pancakes.png", 
+        "ingr": "7 ингредиентов", 
+        "time": "30 минут", 
+        "slug": "pancakes",
+        "tags": ["american", "breakfast"],
+        "ingredients": ["мука", "соус болоньезе", "масло сливочное", "молоко", "фарш"]
+    },
+    {
+        "name": "Пицца “Маргарита”", 
+        "src": "pizza.png", 
+        "ingr": "7 ингредиентов", 
+        "time": "30 минут", 
+        "slug": "pizza-margarita",
+        "tags": ["pizza", "dinner", "italian", "evening", "snack"],
+        "ingredients": ["мука", "соус болоньезе", "масло сливочное", "молоко", "фарш"]
+    },
+    {
+        "name": "Спагетти аматричана", 
+        "src": "pasta.png", 
+        "ingr": "10 ингредиентов", 
+        "time": "1 час", 
+        "slug": "pasta",
+        "tags": ["pasta", "italian", "dinner"],
+        "ingredients": ["соус болоньезе", "масло сливочное", "молоко", "фарш"]
+    },
+    {
+        "name": "Хинкали", 
+        "src": "hinkali.png", 
+        "ingr": "11 ингредиентов", 
+        "time": "45 минут", 
+        "slug": "hinkali",
+        "tags": ["georgian", "dinner", "evening"],
+        "ingredients": ["масло сливочное", "молоко", "фарш"]
+    }
+]

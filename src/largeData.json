@@ -1,0 +1,70 @@
+[
+    {
+        "slug": "lazanya",
+        "name": "Лазанья классическая с мясом",
+        "time": "50 минут",
+        "raiting": {
+            "likes": 1200,
+            "dislikes": 200
+        },
+        "video": "/recipes/lazanya/video.png",
+        "previews": [
+            "/recipes/lazanya/previews/img1.png",
+            "/recipes/lazanya/previews/img2.png",
+            "/recipes/lazanya/previews/img3.png",
+            "/recipes/lazanya/previews/img4.png",
+            "/recipes/lazanya/previews/img5.png"
+        ],
+        "author": {
+            "name": "Имя Фамилия",
+            "image": "/recipes/lazanya/author.png"
+        },
+        "energy": {
+            "fat": 80,
+            "calories": 1000,
+            "proteins": 50,
+            "carbohydrates": 25
+        },
+        "ingredients": [
+            {
+                "name": "Фарш",
+                "amount": "600 г"
+            },
+            {
+                "name": "Соус болоньезе",
+                "amount": "600 г"
+            },
+            {
+                "name": "Масло сливочное",
+                "amount": "60 г"
+            },
+            {
+                "name": "Мука",
+                "amount": "2 ст. ложки"
+            },
+            {
+                "name": "Молоко",
+                "amount": "750 мл"
+            }
+        ],
+        "instructions": [
+            {
+                "image": "/recipes/lazanya/instructions/img1.png",
+                "text": "На сковороде раскалить оливковое масло. Добавить мясной фарш (лучше свинина+телятина)."
+            },
+            {
+                "image": "/recipes/lazanya/instructions/img2.png",
+                "text": "Духовку разогреть до 180 градусов. Форму смазать сливочным маслом. На дно вылить немного соуса бешамель, чуть-чуть, только чтобы покрыть дно."
+            },
+            {
+                "image": "/recipes/lazanya/instructions/img3.png",
+                "text": "Соуса нужно выкладывать столько, сколько необходимо, на ваш взгляд, чтобы лазанья получилась сочной. Поверх соуса выложить сухие листы лазаньи. Повторить процедуру."
+            },
+            {
+                "image": "/recipes/lazanya/instructions/img4.png",
+                "text": "Последний слой листов промазать соусом бешамель и сверху щедро засыпать сыром. Дать постоять минут 7–10. Поставить в духовку. Печь 30 минут."
+            }
+        ],
+        "advice": "Обязательно старайтесь промазывать хорошенько края сухих листов: иначе получится суховато."
+    }
+]
