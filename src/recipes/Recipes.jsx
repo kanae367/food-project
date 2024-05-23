@@ -40,6 +40,9 @@ const Recipes = () => {
             const newData = data.filter(item => hasAll(ingredients, item.ingredients))
             const newItems = newData.map(item => <RecipeItem key={item.slug} name={item.name} src={item.src} ingr={item.ingr} time={item.time} slug={item.slug}/>)
             setItems(newItems);
+        }else{
+            const newItems = data.map(item => <RecipeItem key={item.slug} name={item.name} src={item.src} ingr={item.ingr} time={item.time} slug={item.slug}/>)
+            setItems(newItems);
         }
     }, [ingredients])
 
