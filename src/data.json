@@ -1,7 +1,7 @@
 [
     {
         "name": "Лазанья классическая", 
-        "src": "lazanya.png", 
+        "src": "lazagna.webp", 
         "ingr": "8 ингредиентов", 
         "time": "50 минут", 
         "slug": "lazanya",
@@ -10,7 +10,7 @@
     },
     {
         "name": "Фрикасе из кролика", 
-        "src": "krol.png", 
+        "src": "bunny.webp", 
         "ingr": "15 ингредиентов", 
         "time": "2 часа", 
         "slug": "rabbit",
@@ -19,7 +19,7 @@
     },
     {
         "name": "Свиные уши по-китайски", 
-        "src": "svin.png", 
+        "src": "pork.webp", 
         "ingr": "21 ингредиент", 
         "time": "30 минут", 
         "slug": "chinese-pork",
@@ -28,7 +28,7 @@
     },
     {
         "name": "Пирожные из тыквы", 
-        "src": "pumpkin-cake.png", 
+        "src": "pumpkin-cake.webp", 
         "ingr": "14 ингредиентов", 
         "time": "1 час", 
         "slug": "pumpking-cake",
@@ -37,7 +37,7 @@
     },
     {
         "name": "Клубничный торт", 
-        "src": "tort.png", 
+        "src": "cake.webp", 
         "ingr": "6 ингредиентов", 
         "time": "1 час", 
         "slug": "berry-cake",
@@ -46,7 +46,7 @@
     },
     {
         "name": "Американские панкейки", 
-        "src": "pancakes.png", 
+        "src": "pancakes.webp", 
         "ingr": "7 ингредиентов", 
         "time": "30 минут", 
         "slug": "pancakes",
@@ -55,7 +55,7 @@
     },
     {
         "name": "Пицца “Маргарита”", 
-        "src": "pizza.png", 
+        "src": "pizza.webp", 
         "ingr": "7 ингредиентов", 
         "time": "30 минут", 
         "slug": "pizza-margarita",
@@ -64,7 +64,7 @@
     },
     {
         "name": "Спагетти аматричана", 
-        "src": "pasta.png", 
+        "src": "pasta.webp", 
         "ingr": "10 ингредиентов", 
         "time": "1 час", 
         "slug": "pasta",
@@ -73,7 +73,7 @@
     },
     {
         "name": "Хинкали", 
-        "src": "hinkali.png", 
+        "src": "hinkali.webp", 
         "ingr": "11 ингредиентов", 
         "time": "45 минут", 
         "slug": "hinkali",

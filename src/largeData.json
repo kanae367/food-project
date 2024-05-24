@@ -7,13 +7,13 @@
             "likes": 1200,
             "dislikes": 200
         },
-        "video": "/recipes/lazanya/video.png",
+        "video": "/recipes/lazanya/video.webp",
         "previews": [
-            "/recipes/lazanya/previews/img1.png",
-            "/recipes/lazanya/previews/img2.png",
-            "/recipes/lazanya/previews/img3.png",
-            "/recipes/lazanya/previews/img4.png",
-            "/recipes/lazanya/previews/img5.png"
+            "/recipes/lazanya/previews/img1.webp",
+            "/recipes/lazanya/previews/img2.webp",
+            "/recipes/lazanya/previews/img3.webp",
+            "/recipes/lazanya/previews/img4.webp",
+            "/recipes/lazanya/previews/img5.webp"
         ],
         "author": {
             "name": "Имя Фамилия",
@@ -49,19 +49,19 @@
         ],
         "instructions": [
             {
-                "image": "/recipes/lazanya/instructions/img1.png",
+                "image": "/recipes/lazanya/instructions/img1.webp",
                 "text": "На сковороде раскалить оливковое масло. Добавить мясной фарш (лучше свинина+телятина)."
             },
             {
-                "image": "/recipes/lazanya/instructions/img2.png",
+                "image": "/recipes/lazanya/instructions/img2.webp",
                 "text": "Духовку разогреть до 180 градусов. Форму смазать сливочным маслом. На дно вылить немного соуса бешамель, чуть-чуть, только чтобы покрыть дно."
             },
             {
-                "image": "/recipes/lazanya/instructions/img3.png",
+                "image": "/recipes/lazanya/instructions/img3.webp",
                 "text": "Соуса нужно выкладывать столько, сколько необходимо, на ваш взгляд, чтобы лазанья получилась сочной. Поверх соуса выложить сухие листы лазаньи. Повторить процедуру."
             },
             {
-                "image": "/recipes/lazanya/instructions/img4.png",
+                "image": "/recipes/lazanya/instructions/img4.webp",
                 "text": "Последний слой листов промазать соусом бешамель и сверху щедро засыпать сыром. Дать постоять минут 7–10. Поставить в духовку. Печь 30 минут."
             }
         ],

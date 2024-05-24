@@ -9,17 +9,17 @@ const Authors = () => {
                 <div className='author__container'>
                     <div className='author__item'>
                         <p className='author__ranking'>2</p>
-                        <img className='author__image' src="/authors/anastasia.png" alt="Анастасия Белякова" />
+                        <img className='author__image' src="/authors/anastasia.webp" alt="Анастасия Белякова" />
                         <h2 className='author__name'>Анастасия Белякова</h2>
                     </div>
                     <div className='author__item'>
                         <p className='author__ranking'>1</p>
-                        <img className='author__image' src="/authors/roman.png" alt="Роман Петрикин" />
+                        <img className='author__image' src="/authors/roman.webp" alt="Роман Петрикин" />
                         <h2 className='author__name'>Роман Петрикин</h2>
                     </div>
                     <div className='author__item'>
                         <p className='author__ranking'>3</p>
-                        <img className='author__image' src="/authors/vigen.png" alt="Виген Горбунов" />
+                        <img className='author__image' src="/authors/vigen.webp" alt="Виген Горбунов" />
                         <h2 className='author__name'>Виген Горбунов</h2>
                     </div>
                 </div>
