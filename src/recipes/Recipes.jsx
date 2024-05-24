@@ -87,13 +87,6 @@ const Recipes = () => {
                 <div className="recipes__container">
                     {items.length > 0 ? items : <ItemsPlaceholder/>}
                 </div>
-
-                <div className="recipes__navigation">
-                    <button >1</button>
-                    <button >2</button>
-                    <button >3</button>
-                    <button>...</button>
-                </div>
             </main>
         </Layout>
     )

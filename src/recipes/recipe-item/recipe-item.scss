@@ -15,6 +15,11 @@
 
         .recipe__like-button{
             color: #f5f5f5;
+            
+        }
+        
+        path{
+            stroke: #f5f5f5;
         }
     }
 }
@@ -74,6 +79,24 @@
     }
 }
 
+.recipe__like-icon{
+    width: 30px;
+    height: 30px;
+
+    path{
+        transition: stroke .3s;
+    }
+}
+
+.recipe__time-icon{
+    width: 30px;
+    height: 30px;
+
+    path{
+        transition: stroke .3s;
+    }
+}
+
 .recipe__like-button{
     display: flex;
     background-color: transparent;
@@ -81,5 +104,5 @@
     font-size: 23px;
     align-items: center;
     border: none;
-    transition: color .3;
+    transition: color .3s;
 }
