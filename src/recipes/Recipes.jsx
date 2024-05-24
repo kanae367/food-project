@@ -13,6 +13,11 @@ const Recipes = () => {
     const [ingredients, setIngredients] = useState([]);
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [items, setItems] = useState(initialItems);
+
+    const generateAndSetData = (array) => {
+        const newItems = array.map(item => <RecipeItem key={item.slug} name={item.name} src={item.src} ingr={item.ingr} time={item.time} slug={item.slug}/>)
+        setItems(newItems);
+    }
     
     const handleSumbit = (e) => {
         e.preventDefault();
@@ -30,19 +35,16 @@ const Recipes = () => {
             &&  (filters.menu === 'all' || item.tags.includes(filters.menu))
             &&  (filters.dish === 'all' || item.tags.includes(filters.dish))
             &&  (filters.coisine === 'all' || item.tags.includes(filters.coisine)))
-
-        const newItems = newData.map(item => <RecipeItem key={item.slug} name={item.name} src={item.src} ingr={item.ingr} time={item.time} slug={item.slug}/>)
-        setItems(newItems);
+        
+        generateAndSetData(newData);
     }
 
     useEffect(() => {
         if(ingredients.length > 0){
             const newData = data.filter(item => hasAll(ingredients, item.ingredients))
-            const newItems = newData.map(item => <RecipeItem key={item.slug} name={item.name} src={item.src} ingr={item.ingr} time={item.time} slug={item.slug}/>)
-            setItems(newItems);
+            generateAndSetData(newData);
         }else{
-            const newItems = data.map(item => <RecipeItem key={item.slug} name={item.name} src={item.src} ingr={item.ingr} time={item.time} slug={item.slug}/>)
-            setItems(newItems);
+            generateAndSetData(data);
         }
     }, [ingredients])
 
@@ -80,7 +82,11 @@ const Recipes = () => {
                         <option value="chinese">Китайская</option>
                         <option value="russian">Русская</option>
                     </select>
-                    <button type="button" className="recipes__button" onClick={() => setIsModalOpen(true)}>Ингредиенты</button>
+                    <button type="button" className="recipes__button" onClick={() => setIsModalOpen(true)}>
+                        <div>
+                            Ингредиенты
+                        </div>
+                    </button>
                     <button type="sumbit" className="recipes__button">Подобрать рецепт</button>
                 </form>
 

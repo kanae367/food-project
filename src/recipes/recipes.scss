@@ -1,11 +1,23 @@
 .filters{
-    background-color: #EAEAEA;
+    position: relative;
     display: flex;
     min-width: 1900px;
-        max-width: 1920px;
+    max-width: 1920px;
     padding: 0 300px;
     height: 60px;
+    margin-top: 20px;
+    gap: 5px;
     align-items: center;
+
+    &::after{
+        position: absolute;
+        content: '';
+        left: 300px;
+        right: 300px;
+        top: calc(100% + 30px);
+        height: 1px;
+        background-color: black;
+    }
 }
 
 .recipes__select{
@@ -14,9 +26,9 @@
     font-size: 16px;
     padding: 15px 18px;
     border-radius: none;
-    color: #1A162E;
-    background-color: #CFCFCF;
-    border: 1px solid #6B6B6B;
+    color: #fff;
+    background-color: #45546B;
+    border: 1px solid #1A162E;
     cursor: pointer;
 
     &:nth-child(4){
@@ -27,10 +39,33 @@
 .recipes__button{
     cursor: pointer;
     padding: 12px 25px;
+    background-color: rgb(249, 249, 250);
+    border: 1px solid black;
+    transition: all .3s;
+    font-size: 15px;
 
     &:last-child{
         margin-left: 40px;
         border-radius: none;
+        border: 1px solid rgb(17, 170, 17);
+        font-weight: 500;
+
+        &:hover{
+            color: white;
+            background-color: rgb(17, 170, 17);
+        }
+    }
+
+    &:not(:last-child){
+        div{
+            transition: scale .2s;
+        }
+
+        &:hover{
+            div{
+                scale: .97;
+            }
+        }
     }
 }
 
