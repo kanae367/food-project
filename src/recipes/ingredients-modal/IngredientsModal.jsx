@@ -36,12 +36,14 @@ const IngredientsModal = ({onExit, setData, currentIngredients}) => {
 
                 <ul className={classes.list}>
                     {
+                        ingredients.length > 0 ?
                         ingredients.map((item, index) => 
                         <li className={classes.item} key={item}>
                             <span className={classes.number}>{index + 1}</span>
                             {item}
                             <button type='button' className={classes.delete} onClick={() => handleItemDelete(index)}>X</button>
                         </li>)
+                        : <p>Нет выбранных ингредиентов</p>
                     }
                 </ul>
 

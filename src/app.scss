@@ -41,22 +41,22 @@
             margin-bottom: 36px;
             margin-top: 310px;
         }
-
+        
         .item__subtitle {
             font-size: 14px;
         }
     }
-
+    
     &__inner{
         position: absolute;
         inset: 0;
         display: flex;
         flex-direction: column;
+        text-shadow: 0 0 1px black;
         align-items: center;
         padding: 0 105px;
         color: #f5f5f5;
         text-align: center;
-        text-shadow: 0 0 2px black;
     }
 
     &__title{
@@ -67,7 +67,7 @@
     }
 
     &__subtitle{
-        font-size: 10px;
+        font-size: 13px;
     }
 }
 
