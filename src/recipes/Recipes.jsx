@@ -82,11 +82,7 @@ const Recipes = () => {
                         <option value="chinese">Китайская</option>
                         <option value="russian">Русская</option>
                     </select>
-                    <button type="button" className="recipes__button" onClick={() => setIsModalOpen(true)}>
-                        <div>
-                            Ингредиенты
-                        </div>
-                    </button>
+                    <button type="button" className="recipes__button" onClick={() => setIsModalOpen(true)}>Ингредиенты</button>
                     <button type="sumbit" className="recipes__button">Подобрать рецепт</button>
                 </form>
 
