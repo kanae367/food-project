@@ -13,7 +13,7 @@ const Header = () => {
     return(
         <header className={classes.header}>
             <Link to={'/'}>
-                <img className={classes.logo} src="/hat.png" alt="Повар icon"/>
+                <img className={classes.logo} src="/hat.png" alt="Логотип"/>
             </Link>
             <nav className={classes.navbar}>
                 <Link to={'/posts'} className={`${classes.link} ${classes.disabled}`} disabled={true}>Статьи</Link>

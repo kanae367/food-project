@@ -7,7 +7,7 @@ const RecipePage = () => {
     const {slug} = useParams();
     const recipe = getRecipeData(slug);
 
-    if(!recipe) throw new Error("Not Found", {status: 404})
+    if(!recipe) throw new Error(`Нет рецепта с полем slug = ${slug}`, {status: 404})
 
     return(
         <Layout>

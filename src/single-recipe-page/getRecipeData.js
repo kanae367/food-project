@@ -1,4 +1,4 @@
-import data from '../largeData.json';
+import data from '../completeData.json';
 
 const getRecipeData = (slug) => {
     const result = data.find(item => item.slug === slug); 
