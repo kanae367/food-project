@@ -1,8 +1,9 @@
 .container{
-    width: 100%;
+    width: 500px;
+    height: 150px;
     position: absolute;
     left: 0;
-    top: calc(100% + 5px);
+    top: calc(100% + 15px);
     display: flex;
     box-shadow: 0 0 15px black;
     gap: 20px;
@@ -13,7 +14,7 @@
     z-index: 5;
 
     &:hover{
-        .name::after{
+        *::after{
             left: -15px;
             right: -25px;
         }
@@ -21,16 +22,17 @@
 }
 
 .image{
-    height: 80px;
-    width: 100px;
+    height: 100%;
+    width: 200px;
     object-fit: cover;
 }
 
 .name{
     margin-top: 10px;
     color: black;
-    font-size: 18px;
+    font-size: 22px;
     position: relative;
+    font-weight: 500;
     white-space: collapse;
     
     &::after{
@@ -46,8 +48,35 @@
 }
 
 .ingr{
-    margin-top: 15px;
+    margin-top: 25px;
     color: black;
+    font-size: 18px;
+    position: relative;
+
+    &::after {
+        position: absolute;
+        content: '';
+        left: 0;
+        right: 0;
+        top: calc(100% + 12px);
+        background-color: black;
+        height: 1px;
+        transition: all .2s;
+    }
+}
+
+.time{
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    margin-top: 25px;
+    gap: 15px;
+    color: black;
+}
+
+.icon{
+    height: 24px;
+    width: 24px;
 }
 
 .empty{

@@ -37,6 +37,11 @@
     
 }
 
+.author__image{
+    width: 413px !important;
+    height: 413px !important;
+}
+
 .author__ranking{
     font-size: 72px;
     color: #1A162E;
@@ -55,11 +60,11 @@
 .author__item{
     &:first-child {
         .author__name{
-            margin-top: 101px;
+            // margin-top: 101px;
         }
 
         .author__ranking{
-            margin-bottom: 57px;
+            // margin-bottom: 57px;
         }
 
         .author__image{
@@ -68,33 +73,33 @@
         }
     }
     
-    &:nth-child(2) {
-        .author__name {
-            margin-top: 43px;
-        }
+    // &:nth-child(2) {
+    //     .author__name {
+    //         margin-top: 43px;
+    //     }
 
-        .author__ranking {
-            margin-bottom: 61px;
-        }
+    //     .author__ranking {
+    //         margin-bottom: 61px;
+    //     }
 
-        .author__image {
-            width: 577px;
-            height: 577px;
-        }
-    }
+    //     .author__image {
+    //         width: 577px;
+    //         height: 577px;
+    //     }
+    // }
 
-    &:last-child {
-        .author__name {
-            margin-top: 123px;
-        }
+    // &:last-child {
+    //     .author__name {
+    //         margin-top: 123px;
+    //     }
 
-        .author__ranking {
-            margin-bottom: 55px;
-        }
+    //     .author__ranking {
+    //         margin-bottom: 55px;
+    //     }
 
-        .author__image {
-            width: 413px;
-            height: 413px;
-        }
-    }
+    //     .author__image {
+    //         width: 413px;
+    //         height: 413px;
+    //     }
+    // }
 }
