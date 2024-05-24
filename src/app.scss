@@ -73,17 +73,6 @@
 
 .pumpkin{
     grid-area: pumpkin;
-
-    &:hover{
-        img{
-            filter: blur(2px) brightness(.9);
-        }
-    }
-    
-    img{
-        transition: filter .4s;
-        // filter: brightness(.9);
-    }
 }
 
 .beet{
