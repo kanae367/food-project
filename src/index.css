@@ -5,6 +5,10 @@
   font-family: 'Inter';
 }
 
+html, body{
+  overflow-y: auto;
+}
+
 #root{
   min-width: 1900px;
   max-width: 1920px;
