@@ -1,17 +1,31 @@
 .navbar {
     display: flex;
-    gap: 25px;
+    gap: 35px;
     align-items: center;
 
     &__link {
         text-decoration: none;
         color: #f5f5f5;
-        font-size: 36px;
+        font-size: 28px;
         font-weight: 700;
         transition: color .2s;
+        position: relative;
+
+        &::after{
+            position: absolute;
+            content: '';
+            left: 0;
+            right: 100%;
+            top: calc(100% + 5px);
+            height: 2px;
+            transition: all .3s;
+            background-color: white;
+        }
 
         &:hover{
-            color: #fff;
+            &::after{
+                right: 0%;
+            }
         }
     }
 }
@@ -24,22 +38,25 @@
 .header {
     display: flex;
     min-width: 1900px;
-        max-width: 1920px;
+    max-width: 1920px;
     padding: 0 300px;
     background-color: #45546B;
     align-items: center;
+    justify-content: space-between;
     height: 134px;
 
     &__icon{
-        width: 115px;
-        height: 115px;
+        width: 105px;
+        height: 105px;
+        filter: invert(.95);
     }
     
     &__button{
         background-color: transparent;
         border: none;
         color: white;
-        font-size: 36px;
+        font-size: 32px;
+        margin-right: 15px;
     }
 }
 
@@ -52,7 +69,7 @@
     position: relative;
     height: 49px;
     padding: 0 20px;
-    background-color: #D9D9D9;
+    background-color: #f3f2f2;
     border-radius: 12px;
     width: 360px;
     display: flex;
@@ -67,7 +84,7 @@
 
     &__input {
         background-color: transparent;
-        font-size: 32px;
+        font-size: 24px;
         border: unset;
         width: 100%;
 

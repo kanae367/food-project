@@ -16,13 +16,13 @@ const Header = () => {
 
     return(
         <header className="header">
-            <a className="header__home-link" href="/">
+            <Link to={'/'} className="header__home-link">
                 <img className="header__icon" src="/hat.png" alt="Повар icon"/>
-            </a>
+            </Link>
             <nav className="navbar">
-                <Link to={'/posts'} className="navbar__link disabled" href="/posts" disabled={true}>Статьи</Link>
-                <Link to={'/recipes'} className="navbar__link" href="/recipes">Рецепты</Link>
-                <Link to={'/authors'} className="navbar__link" href="/authors">Авторы</Link>
+                <Link to={'/posts'} className="navbar__link disabled" disabled={true}>Статьи</Link>
+                <Link to={'/recipes'} className="navbar__link">Рецепты</Link>
+                <Link to={'/authors'} className="navbar__link">Авторы</Link>
             </nav>
             <form className="search">
                 <img className="search__icon" src="/search.svg" alt="поиск"/>
@@ -31,7 +31,7 @@ const Header = () => {
                     search && <SearchItem name={search}/>
                 }
             </form>
-            <button className="header__button">Войти</button>
+            <button className="header__button disabled" disabled>Войти</button>
         </header>
     )
 }
