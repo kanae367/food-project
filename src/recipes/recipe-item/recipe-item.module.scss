@@ -1,6 +1,6 @@
 @import '../../variables.scss';
 
-.recipe__item{
+.item{
     display: flex;
     gap: 20px;
     width: 630px;
@@ -9,12 +9,14 @@
     transition: all .3s;
     text-decoration: none;
     cursor: pointer;
+    border-radius: 8px;
+    overflow: hidden;
 
     &:hover{
         color: $secondary;
         background-color: $primary;
 
-        .recipe__like-button{
+        .like{
             color: $secondary;
             
         }
@@ -25,27 +27,27 @@
     }
 }
 
-.recipe__info{
+.info{
     width: 100%;
     padding-right: 50px;
 }
 
-.recipe__image{
+.image{
     width: 173px;
     height: 202px;
     object-fit: cover;
     background-color: $primary;
 }
 
-.recipe__title{
+.title{
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 500;
     margin-top: 12px;
     margin-bottom: 25px;
     white-space: nowrap;
 }
 
-.recipe__container{
+.container{
     position: relative;
     font-size: 21px;
     display: flex;
@@ -63,7 +65,7 @@
     }
 }
 
-.recipe__time{
+.time{
     position: relative;
     display: flex;
     align-items: center;
@@ -80,7 +82,7 @@
     }
 }
 
-.recipe__like-icon{
+.like-icon{
     width: 30px;
     height: 30px;
 
@@ -89,7 +91,7 @@
     }
 }
 
-.recipe__time-icon{
+.time-icon{
     width: 30px;
     height: 30px;
 
@@ -98,7 +100,7 @@
     }
 }
 
-.recipe__like-button{
+.like{
     display: flex;
     background-color: transparent;
     gap: 10px;

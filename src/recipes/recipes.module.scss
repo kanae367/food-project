@@ -22,7 +22,7 @@
     }
 }
 
-.recipes__select{
+.select{
     width: 203px;
     height: 49px;
     font-size: 16px;
@@ -30,7 +30,7 @@
     border-radius: none;
     color: $primary;
     background-color: $secondary;
-    border: 1px solid #1A162E;
+    border: 1px solid $primary;
     cursor: pointer;
 
     &:nth-child(4){
@@ -38,7 +38,7 @@
     }
 }
 
-.recipes__button{
+.button{
     cursor: pointer;
     padding: 12px 25px;
     background-color: $secondary;
@@ -58,7 +58,7 @@
     }
 }
 
-.recipes__container{
+.container{
     min-width: 1900px;
     max-width: 1920px;
     padding: 0 300px;
@@ -67,5 +67,5 @@
     gap: 29px;
     flex-wrap: wrap;
     padding-bottom: 84px;
-    background-color: $background;
+    background-color: $secondary;
 }

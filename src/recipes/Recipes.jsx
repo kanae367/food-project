@@ -1,6 +1,6 @@
 import Layout from "../layout/Layout";
 import RecipeItem from "./recipe-item/RecipeItem";
-import './recipes.scss';
+import classes from './recipes.module.scss';
 import data from '../data.json';
 import { useEffect, useState } from "react";
 import IngredientsModal from "./ingredients-modal/IngredientsModal";
@@ -52,41 +52,41 @@ const Recipes = () => {
         <Layout>
             {isModalOpen && <IngredientsModal currentIngredients={ingredients} setData={(data) => setIngredients(data)} onExit={() => setIsModalOpen(false)}/>}
 
-            <main className="recipes">
-                <form className="filters" onSubmit={handleSumbit}>
-                    <select className="recipes__select" name="category" id="category">
+            <main className={classes.recipes}>
+                <form className={classes.filters} onSubmit={handleSumbit}>
+                    <select className={classes.select} name="category" id="category">
                         <option value="all">Любая категория</option>
                         <option value="breakfast">Завтраки</option>
                         <option value="dinner">Обеды</option>
                         <option value="evening">Ужины</option>
                         <option value="snack">Закуски</option>
                     </select>
-                    <select className="recipes__select" name="dish" id="dish">
+                    <select className={classes.select} name="dish" id="dish">
                         <option value="all">Любое блюдо</option>
                         <option value="lasagna">Лазанья</option>
                         <option value="pizza">Пицца</option>
                         <option value="pasta">Паста</option>
                         <option value="plov">Плов</option>
                     </select>
-                    <select className="recipes__select" name="menu" id="menu">
+                    <select className={classes.select} name="menu" id="menu">
                         <option value="all">Любое меню</option>
                         <option value="diabet">Меню при диабете</option>
                         <option value="vegan">Веганская еда</option>
                         <option value="child">Детское меню</option>
                         <option value="post">Постная еда</option>
                     </select>
-                    <select className="recipes__select" name="coisine" id="coisine">
+                    <select className={classes.select} name="coisine" id="coisine">
                         <option value="all">Любая кухня</option>
                         <option value="italian">Итальянская</option>
                         <option value="georgian">Грузинская</option>
                         <option value="chinese">Китайская</option>
                         <option value="russian">Русская</option>
                     </select>
-                    <button type="button" className="recipes__button" onClick={() => setIsModalOpen(true)}>Ингредиенты</button>
-                    <button type="sumbit" className="recipes__button">Подобрать рецепт</button>
+                    <button type="button" className={classes.button} onClick={() => setIsModalOpen(true)}>Ингредиенты</button>
+                    <button type="sumbit" className={classes.button}>Подобрать рецепт</button>
                 </form>
 
-                <div className="recipes__container">
+                <div className={classes.container}>
                     {items.length > 0 ? items : <ItemsPlaceholder/>}
                 </div>
             </main>

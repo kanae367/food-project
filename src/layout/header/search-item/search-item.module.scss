@@ -10,7 +10,7 @@
     box-shadow: 0 0 15px black;
     gap: 20px;
     border-radius: 4px;
-    background-color: $background;
+    background-color: $secondary;
     overflow: hidden;
     text-decoration: none;
     z-index: 5;
@@ -73,7 +73,7 @@
     align-items: center;
     margin-top: 25px;
     gap: 15px;
-    color: $main-text;
+    color: $primary
 }
 
 .icon{

@@ -9,7 +9,7 @@
     background-color: #FAFAFA;
 }
 
-.author__container{
+.container{
     width: 100%;
     display: flex;
     align-items: flex-end;
@@ -22,29 +22,27 @@
     padding-bottom: 43px;
 }
 
-.author__title{
-    font-family: "Abhaya Libre", serif;
+.title{
     font-weight: 800;
-    font-size: 80px;
+    font-size: 60px;
     color: #1A162E;
     margin-top: 43px;
 }
 
-.author__item{
+.item{
     display: flex;
     flex-direction: column;
     height: 100%;
     
 }
 
-.author__ranking{
-    font-size: 72px;
+.ranking{
+    font-size: 48px;
     color: #1A162E;
     margin-bottom: 60px;
-    font-family: "Abhaya Libre", serif;
 }
 
-.author__name{
+.name{
     font-size: 40px;
     color: #1A162E;
     margin-top: auto;
@@ -52,47 +50,47 @@
     
 }
 
-.author__item{
+.item{
     &:first-child {
-        .author__name{
+        .name{
             margin-top: 101px;
         }
 
-        .author__ranking{
+        .ranking{
             margin-bottom: 57px;
         }
 
-        .author__image{
+        .image{
             width: 462px;
             height: 462px;
         }
     }
     
     &:nth-child(2) {
-        .author__name {
+        .name {
             margin-top: 43px;
         }
 
-        .author__ranking {
+        .ranking {
             margin-bottom: 61px;
         }
 
-        .author__image {
+        .image {
             width: 577px;
             height: 577px;
         }
     }
 
     &:last-child {
-        .author__name {
+        .name {
             margin-top: 123px;
         }
 
-        .author__ranking {
+        .ranking {
             margin-bottom: 55px;
         }
 
-        .author__image {
+        .image {
             width: 413px;
             height: 413px;
         }

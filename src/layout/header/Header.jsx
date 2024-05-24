@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './header.scss';
+import classes from './header.module.scss';
 import { Link, NavLink } from 'react-router-dom';
 import SearchItem from './search-item/SearchItem';
 
@@ -11,23 +11,23 @@ const Header = () => {
     }
 
     return(
-        <header className="header">
-            <Link to={'/'} className="header__home-link">
-                <img className="header__icon" src="/hat.png" alt="Повар icon"/>
+        <header className={classes.header}>
+            <Link to={'/'}>
+                <img className={classes.logo} src="/hat.png" alt="Повар icon"/>
             </Link>
-            <nav className="navbar">
-                <Link to={'/posts'} className="navbar__link disabled" disabled={true}>Статьи</Link>
-                <NavLink to={'/recipes'} className="navbar__link">Рецепты</NavLink>
-                <NavLink to={'/authors'} className="navbar__link">Авторы</NavLink>
+            <nav className={classes.navbar}>
+                <Link to={'/posts'} className={`${classes.link} ${classes.disabled}`} disabled={true}>Статьи</Link>
+                <NavLink to={'/recipes'} className={classes.link}>Рецепты</NavLink>
+                <NavLink to={'/authors'} className={classes.link}>Авторы</NavLink>
             </nav>
-            <div className="search">
-                <img className="search__icon" src="/search.svg" alt="поиск"/>
-                <input className="search__input" type="text" placeholder="поиск по сайту" onInput={handleInput}/>
+            <div className={classes.search}>
+                <img className={classes.icon} src="/search.svg" alt="поиск"/>
+                <input className={classes.input} type="text" placeholder="поиск по сайту" onInput={handleInput}/>
                 {
                     search && <SearchItem name={search}/>
                 }
             </div>
-            <button className="header__button disabled" disabled>Войти</button>
+            <button className={`${classes.button} ${classes.disabled}`} disabled>Войти</button>
         </header>
     )
 }
