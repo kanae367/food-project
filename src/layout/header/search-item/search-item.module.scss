@@ -1,3 +1,5 @@
+@import '../../../variables.scss';
+ 
 .container{
     width: 500px;
     height: 150px;
@@ -8,7 +10,7 @@
     box-shadow: 0 0 15px black;
     gap: 20px;
     border-radius: 4px;
-    background-color: #f5f5f5;
+    background-color: $background;
     overflow: hidden;
     text-decoration: none;
     z-index: 5;
@@ -71,7 +73,7 @@
     align-items: center;
     margin-top: 25px;
     gap: 15px;
-    color: black;
+    color: $main-text;
 }
 
 .icon{

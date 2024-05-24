@@ -1,8 +1,10 @@
+@import '../variables.scss';
+
 .recipe{
-    background-color: #FAFAFA;
+    background-color: $secondary;
     min-width: 1900px;
-        max-width: 1920px;
-        padding: 0 300px;
+    max-width: 1920px;
+    padding: 0 300px;
         
 }
 
@@ -74,7 +76,7 @@
             bottom: -2px;
             width: 3px;
             border-radius: 50px;
-            background-color: #000;
+            background-color: $primary;
         }
     }
 }
@@ -110,7 +112,7 @@
     display: flex;
     width: 410px;
     padding: 24px 36px;
-    border: 2px solid black;
+    border: 2px solid $primary;
     gap: 35px;
     flex-shrink: 0;
     height: 125px;
@@ -141,7 +143,7 @@
         background-color: transparent;
         padding: 6px 14px;
         border-radius: none;
-        border: 1px solid black;
+        border: 1px solid $primary;
         font-weight: 600;
         font-size: 12px;
         cursor: pointer;
@@ -170,7 +172,7 @@
         left: 0;
         right: 0;
         top: -10px;
-        background-color: #000;
+        background-color: $primary;
     }
 
     &__list{
@@ -209,7 +211,7 @@
         left: 0;
         right: 0;
         top: -2px;
-        background-color: #000;
+        background-color: $primary;
         height: 2px;
         position: absolute;
     }
@@ -255,7 +257,7 @@
             flex-shrink: 1;
             margin-left: 10px;
             height: 2px;
-            background-color: #000;
+            background-color: $primary;
         }
     }
 }
@@ -307,7 +309,7 @@
 
 .advice{
     position: relative;
-    border: 2px solid black;
+    border: 2px solid $primary;
     width: 720px;
     padding-top: 51px;
     padding-bottom: 31px;

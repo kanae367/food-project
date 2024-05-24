@@ -1,3 +1,5 @@
+@import '../variables.scss';
+
 .filters{
     position: relative;
     display: flex;
@@ -26,8 +28,8 @@
     font-size: 16px;
     padding: 15px 18px;
     border-radius: none;
-    color: #fff;
-    background-color: #45546B;
+    color: $primary;
+    background-color: $secondary;
     border: 1px solid #1A162E;
     cursor: pointer;
 
@@ -39,27 +41,20 @@
 .recipes__button{
     cursor: pointer;
     padding: 12px 25px;
-    background-color: rgb(249, 249, 250);
-    border: 1px solid black;
+    background-color: $secondary;
+    border: 1px solid $primary;
     transition: all .3s;
     font-size: 15px;
 
     &:last-child{
         margin-left: 40px;
         border-radius: none;
-        border: 1px solid rgb(17, 170, 17);
         font-weight: 500;
-
-        &:hover{
-            color: white;
-            background-color: rgb(17, 170, 17);
-        }
     }
 
-    &:not(:last-child){
-        &:hover{
-            background-color: rgb(196, 243, 201);
-        }
+    &:hover{
+        color: $secondary;
+        background-color: $primary;
     }
 }
 
@@ -72,5 +67,5 @@
     gap: 29px;
     flex-wrap: wrap;
     padding-bottom: 84px;
-    background-color: #fafafa;
+    background-color: $background;
 }

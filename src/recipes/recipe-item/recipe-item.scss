@@ -1,25 +1,27 @@
+@import '../../variables.scss';
+
 .recipe__item{
     display: flex;
     gap: 20px;
     width: 630px;
     height: 202px;
-    background-color: #fff;
+    background-color: darken($secondary, 5%);
     color: #000;
     transition: all .3s;
     text-decoration: none;
     cursor: pointer;
 
     &:hover{
-        color: #f5f5f5;
-        background-color: #7989A3;
+        color: $secondary;
+        background-color: $primary;
 
         .recipe__like-button{
-            color: #f5f5f5;
+            color: $secondary;
             
         }
         
         path{
-            stroke: #f5f5f5;
+            stroke: $secondary;
         }
     }
 }
@@ -33,7 +35,7 @@
     width: 173px;
     height: 202px;
     object-fit: cover;
-    background-color: #D9D9D9;
+    background-color: $primary;
 }
 
 .recipe__title{
