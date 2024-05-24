@@ -29,7 +29,10 @@ const IngredientsModal = ({onExit, setData, currentIngredients}) => {
         <div className={classes.outer} onClick={handleExit}>
             <div className={classes.inner}>
                 <h3 className={classes.title}>Поиск по ингредиентам</h3>
-                <p className={classes.info}>Напишите название ингредиента в поле ввода и нажмите на кнопку, чтобы добавить ингредиент для поиска. Когда Вы выберете все необходимые ингредиенты, нажмите "Искать".</p>
+                <p className={classes.info}>Напишите название ингредиента в поле ввода и нажмите на кнопку, чтобы добавить ингредиент для поиска. Когда Вы выберете все необходимые ингредиенты, нажмите "Искать".
+                </p>
+                <p className={classes.additional}>* поиск по ингредиентам игнорирует другие фильтры</p>
+                
                 <p className={classes.ingredients}>
                     Выбранные ингредиенты:
                 </p>

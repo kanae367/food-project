@@ -37,6 +37,7 @@ const Recipes = () => {
             &&  (filters.coisine === 'all' || item.tags.includes(filters.coisine)))
         
         generateAndSetData(newData);
+        setIngredients([]);
     }
 
     useEffect(() => {
