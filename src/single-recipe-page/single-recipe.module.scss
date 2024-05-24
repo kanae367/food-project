@@ -1,5 +1,9 @@
 .recipe{
     background-color: #FAFAFA;
+    min-width: 1900px;
+        max-width: 1920px;
+        padding: 0 300px;
+        
 }
 
 .title{
@@ -11,8 +15,7 @@
 }
 
 .container{
-    width: 1920px;
-    padding: 0 300px;
+    width: 100%;
 }
 
 .recipe__title{
